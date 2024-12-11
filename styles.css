@@ -1,0 +1,128 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    border:0px solid black;
+}
+header{
+    width:100%;
+    height:95vh;
+    background: url(images/image\ 7.png);
+    background-position: center;
+    background-size: cover;
+    overflow:none;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+    top:40px;
+}
+header h2{
+    font-size:22px;
+    font-weight:700;
+    color:#fff;
+    margin-left:5%;
+}
+header ul li{
+    display:inline-block;
+    list-style: none;
+}
+header ul li a{
+    text-decoration:none;
+    font-size:16px;
+    color:#fff;
+    margin-right:100px;
+    transition: 0.4s ease;
+    border-bottom: 0px solid #008EC4;
+}
+header ul li a:hover{
+    color:aquamarine;
+    border-bottom: 2px solid #fff;
+}
+.header-txt{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10001;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height:40%;
+}
+.header-txt h1{
+    font-size:60px;
+    text-align: left;
+    color:#008EC4;
+    font-weight: 800;
+}
+.header-txt p{
+    font-size:32px;
+    text-align: left;
+}
+.list{
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top:20px;
+    border:3px solid #D9D9D9;
+    border-radius:25px;
+    height:40%;
+}
+
+#list-box{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+#list-box i{
+    font-size:25px;
+}
+.list-text{
+    margin-left:15px;
+    border-right:2px solid #8C8C8C;
+    padding-right:5px;
+}
+.list-text h3{
+    font-size:16px;
+    font-weight:500;
+}
+.list-text p{
+    font-size:16px;
+    color:#8C8C8C;
+}
+.search-btn{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    border:none;
+    text-align: center;
+}
+.search-btn a{
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #008EC4;
+    text-align: center;
+    padding: 15px 15px;
+    color:#fff;
+    font-size:28px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition:0.4s ease;
+}
+.search-btn a:hover{
+    background-color: #005BB5;
+
+}
+#list-box:hover{
+    color:#008EC4;
+}
