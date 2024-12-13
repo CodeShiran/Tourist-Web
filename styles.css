@@ -187,3 +187,47 @@ header ul li a:hover{
 .card-text p{
     font-size:16px;
 }
+/*image slider*/
+
+/* Container for the slider */
+.logo-slider {
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+/* Wrapper for the images */
+.logo-slide {
+    display: flex;
+    animation: slide 10s linear infinite;
+    gap: 50px;
+    width: max-content; /* Ensures full width of all logos */
+}
+
+/* Images style */
+.logo-slide img {
+    width: auto;
+    height: 80px;
+    object-fit: contain;
+    flex-shrink: 0; /* Prevents images from shrinking */
+}
+
+/* Animation keyframes with smooth infinite loop */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Hover effect to pause animation */
+.logo-slider:hover .logo-slide {
+    animation-play-state: paused;
+}
