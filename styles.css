@@ -367,3 +367,111 @@ header ul li a:hover{
     transition: transform 0.3s ease;
     cursor:pointer;
 }
+/*featured news section*/
+.featured-news{
+    width:100%;
+    height:90vh;
+    position:relative;
+}
+.featured-container{
+    width:80%;
+    height:80%;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.featured-head{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.featured-head h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.side-btn{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    font-size:40px;
+}
+#arrowid{
+    border:1px solid #D8D8D8;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured-img-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3rem;
+    margin-top:30px;
+    position: relative;
+}
+.featured-img-card{
+    height:580px;
+    padding-bottom:45px;
+    border-radius:15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.4s ease;
+}
+.featured-img-card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.top-card img{
+    height: 40%;
+    width:100%;
+    background: url(images/Rectangle\ 33.png);
+    background-position: center;
+    background-size: cover;
+    border-radius : 15px 15px 0 0;
+}
+.bottom-card{
+    width:100%;
+    padding:60px;
+}
+.featured-date-section{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+    margin-top:10px;
+}
+.p-section h3{
+    margin-top:15px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom:10px;
+}
+.p-section p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.featured-btn{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    margin-top:25px;
+}
+.btn-circle{
+    border:1px solid #008395;
+    border-radius:30px;
+    width:30px;
+    height:30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    color: #008395;
+    font-size: 25px;
+}
+.btn-txt{
+    color: #008395;
+    font-size: 16px;
+    font-weight: 700;
+}
+
