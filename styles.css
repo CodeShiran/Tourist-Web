@@ -311,3 +311,59 @@ header ul li a:hover{
 .see-btn i:hover{
     transform: translateX(10px);
 }
+/*explore maldives section*/
+.explore-maldives{
+    background-image: url(images/image\ 13.png);
+    width:100%;
+    overflow:none;
+    height:85vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.n-container{
+    width:80%;
+    height:80%;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.n-container h1{
+    font-size:104px;
+    font-weight:500;
+    color:#fff;
+    border-bottom:1px solid #fff;
+    padding-bottom:75px;
+}
+.p-and-i{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top:75px;
+    padding-bottom:15px;
+}
+.paragraph p{
+    font-size:20px;
+    font-weight: 100;
+    color:#fff;
+}
+.maldives-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3rem;
+}
+.scene-img p{
+    font-size:18px;
+    font-weight: 200;
+    color:#fff;
+}
+.scene-img{
+    width:100%;
+    height:auto;
+}
+.scene-box img:hover{
+    transform: scale(1.04);
+    transition: transform 0.3s ease;
+    cursor:pointer;
+}
