@@ -231,3 +231,83 @@ header ul li a:hover{
 .logo-slider:hover .logo-slide {
     animation-play-state: paused;
 }
+.hotel-details{
+    margin-top:100px;
+}
+.detail-box{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+.detail-main-text h1{
+    font-size:40px;
+    font-weight: 700;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards{
+    margin-top:50px;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 3rem;
+    justify-content: center;
+    position:relative;
+    z-index: 10000; 
+}
+.star-box{
+    background-color:rgb(107, 106, 106,50%);
+    width:25%;
+    padding:5px 0;
+    border: none;
+    border-radius: 10px;
+    position:relative;
+    top:0;
+    right:0;
+    transform: translateY(-250px);
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+    margin-left:10px;
+}
+.star-box p{
+    text-align: center;
+    color:#fff;
+    font-size:12px;
+}
+.star-box i{
+    color:#FFDA18;
+    margin-left:5px;
+}
+.see-all{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.see-btn{
+    background-color: transparent;
+    color: #000;
+    padding:10px 25px;
+    border:1px solid #000;
+    border-radius:15px;
+    margin-bottom:15px;
+    transition:0.4s ease;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.see-btn:hover{
+    background-color: #000;
+    color:#fff;
+}
+.see-btn i{
+    font-size:16px;
+    text-align: center;
+    margin-left:5px;
+}
+.see-btn i:hover{
+    transform: translateX(10px);
+}
