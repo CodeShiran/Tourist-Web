@@ -474,4 +474,172 @@ header ul li a:hover{
     font-size: 16px;
     font-weight: 700;
 }
+/*testimonial section*/
+.testimonial{
+    width:100%;
+    height: 60vh;
+    margin-top:300px;
+    position:relative;
+    background: url(images/image\ 13.png);
+    background-position: center;
+    background-size: cover;
+}
+.testimonial-container{
+    width:90%;
+    position:absolute;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height:auto;
+}
+.featured-head-testimonial{
+    height:20%;
+    margin-bottom:120px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.featured-head-testimonial h2{
+    font-size: 40px;
+    font-weight: 600;
+    color:#fff;
+}
+#arrowidn{
+    border:1px solid #D8D8D8;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+}
+.ratings{
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:3rem;
+}
+.rating-card{
+    padding:0 30px;
+    position:relative;
+    background-color: #fff;
+    height:200px;
+    border-radius: 15px;
+}
+.rating-circle{
+    position:absolute;
+    top:-15%;
+    left:30%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    width:100px;
+    height: 100px;
+}
+#rating-profile1{
+    background: url(images/Ellipse\ 7.png);
+    background-position: center;
+    background-size: cover;
+}
+#rating-profile2{
+    background: url(images/Ellipse\ 8.png);
+    background-position: center;
+    background-size: cover;
+}
+#rating-profile3{
+    background: url(images/Ellipse\ 9.png);
+    background-position: center;
+    background-size: cover;
+}
+.rating-name-stars{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0;
+}
+.name-text{
+    font-size:16px;
+    font-weight: 700;
+}
+.stars-icon i{
+    color:#FFDA18;
+}
+.rating-main-text p{
+    margin-top:20px;
+    font-size:16px;
+}
+/*user input section*/
+.user-input-data{
+    width:100%;
+    height:50vh;
+    position:relative;
+}
+.input-data-container{
+    position:absolute;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:90%;
+    height:300px;
+    border-radius: 10px;
+}
+.input-data-holder{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:100%;
+    height: 100%;
+}
+.input-img{
+    background: url(images/Rectangle\ 45.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.text-input{
+    padding:20px;
+    background-color: #F3F3F3;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.text-input h1{
+    font-size:32px;
+    font-weight: 600;
+    text-align: center;
+}
+.input-text-btn{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid #000;
+    border-radius: 13px;
+    height:50px;
+    background-color: #fff;
+    margin-top:30px;
+}
+.input-text input{
+    width:100%;
+    height:10%;
+    font-size: 25px;
+    margin-left: 15px;
+    background-color: #fff;
+}
 
+.input-btn{
+    display:inline-block;
+    cursor: pointer;
+    width:auto;
+    height:auto;
+}
+.sub-btn{
+    background-color: #008395;
+    padding:10px 20px;
+    margin-right:15px;
+    border-radius: 15px;
+    color:#fff;
+    font-size:16px;
+    font-weight: 600;
+}
