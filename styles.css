@@ -643,3 +643,53 @@ header ul li a:hover{
     font-size:16px;
     font-weight: 600;
 }
+/*bottom-section*/
+.bottom-section{
+    width:100%;
+    height:40vh;
+    border:1px solid #000;
+    position:relative;
+    background-color: #000;
+}
+.bottom-container{
+    width:80%;
+    height:80%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom:1px solid #fff;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1rem;
+    align-items: center;
+    background-color: #000;
+    color:#fff;
+}
+#b-parts h2{
+    font-size:20px;
+    font-weight: 700;
+}
+#b-parts{
+    width:100%;
+    height:80%;
+    text-align: left;
+}
+#b-parts ul {
+    padding:0;
+    list-style: none;
+    margin:0;
+}
+#b-parts li{
+    margin-top:15px;
+}
+#b-parts a{
+    text-decoration:none;
+    font-size:16px;
+    color:#fff;
+}
+#b-parts i{
+    font-size:35px;
+    margin-top:15px;
+    margin-right: 33px;
+}
